@@ -1,0 +1,136 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent unwanted scrolling */
+}
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px; /* Adjusted padding for better spacing */
+  background-color: #003366; /* Darker blue for navbar */
+  color: white;
+  width: 100%; /* Full width */
+  box-sizing: border-box;
+}
+
+.navbar-left .logo {
+  font-size: 1.8rem; /* Slightly reduced font size */
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 15px; /* Adjusted gap between buttons */
+}
+
+.navbar-right button {
+  padding: 10px 20px; /* Adjusted padding */
+  background-color: white;
+  color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; /* Slightly reduced font size */
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-right button:hover {
+  background-color: #003366;
+  color: white;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(150deg, #0056b3, #003366);
+  color: white;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 0;
+}
+
+
+.hero-content {
+  max-width: 800px; /* Adjusted max width for hero content */
+  width: 100%;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem; /* Slightly reduced font size */
+  margin-bottom: 20px; /* Adjusted margin */
+}
+
+.hero-content p {
+  font-size: 1.5rem; /* Slightly reduced font size */
+  margin-bottom: 25px; /* Adjusted margin */
+  line-height: 1.6; /* Adjusted line height */
+}
+
+.cta-button {
+  padding: 15px 30px; /* Adjusted padding */
+  background-color: white;
+  color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px; /* Slightly reduced font size */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #003366;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    width: 100vw; /* Full viewport width */
+    box-sizing: border-box;
+  }
+  
+
+  .navbar-right {
+    flex-wrap: wrap;
+    gap: 10px; /* Adjusted gap */
+  }
+
+  .hero-content h1 {
+    font-size: 2.8rem; /* Adjusted font size for smaller screens */
+  }
+
+  .hero-content p {
+    font-size: 1.2rem; /* Adjusted font size */
+  }
+
+  .cta-button {
+    font-size: 14px; /* Adjusted font size */
+    padding: 10px 20px; /* Adjusted padding */
+  }
+}

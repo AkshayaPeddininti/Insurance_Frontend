@@ -1,0 +1,75 @@
+.update-details-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+   
+  /* Title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+   
+  /* Message Styling */
+  .message {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+   
+  .message.success {
+    color: green;
+  }
+   
+  .message.error {
+    color: red;
+  }
+   
+  /* Form Styling */
+  .details-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+   
+  .form-group {
+    text-align: left;
+  }
+   
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+   
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+   
+  /* Buttons */
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+   
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+   

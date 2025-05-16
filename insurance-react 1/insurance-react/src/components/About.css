@@ -1,0 +1,88 @@
+.about-container {
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.about-hero {
+    background: linear-gradient(135deg, #0056b3, #003366); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.about-container h1, .about-container h2 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.about-container ul {
+    list-style-type: circle;
+    margin-left: 25px;
+}
+
+.about-container ul li {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.about-container a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-container a:hover {
+    text-decoration: underline;
+    color: #003366;
+}
+
+.about-cta {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.about-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-cta a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #003366;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.about-cta a:hover {
+    background-color: #002244;
+}

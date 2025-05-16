@@ -1,0 +1,85 @@
+/* General Styling */
+.customer-profile-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ 
+  /* Title */
+  .profile-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+ 
+  /* Message Styling */
+  .message {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+ 
+  .message.success {
+    color: green;
+  }
+ 
+  .message.error {
+    color: red;
+  }
+ 
+  /* Profile Card */
+  .profile-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+ 
+  .profile-card h3 {
+    color: #007bff;
+  }
+ 
+  .profile-card p {
+    color: #555;
+  }
+ 
+  /* Buttons */
+  .action-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .action-button:hover {
+    background-color: #0056b3;
+  }
+/* File Claim Button */
+.file-claim-button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .file-claim-button:hover {
+    background-color: #218838;
+  }
+   
+ 

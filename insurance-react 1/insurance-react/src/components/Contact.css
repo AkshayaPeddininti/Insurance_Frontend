@@ -1,0 +1,45 @@
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px; /* Increased padding for better spacing */
+    font-family: 'Roboto', sans-serif; /* Updated font for consistency */
+    color: #444; /* Slightly darker text color */
+    background-color: #ffffff; /* Changed to white for a cleaner look */
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+}
+
+.contact-container h1 {
+    font-size: 2.5rem;
+    color: #003366; /* Updated color to match the home page theme */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-container p {
+    font-size: 1.2rem;
+    line-height: 1.8; /* Improved readability */
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.contact-container section {
+    margin-top: 30px;
+}
+
+.contact-container h2 {
+    font-size: 1.8rem;
+    color: #003366; /* Updated color to match the home page theme */
+    margin-bottom: 15px;
+}
+
+.contact-container a {
+    color: #0056b3; /* Updated link color */
+    text-decoration: none;
+    font-weight: bold; /* Added emphasis */
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+    color: #003366; /* Darker hover color */
+}
